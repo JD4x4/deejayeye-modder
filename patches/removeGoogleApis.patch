@@ -128,7 +128,7 @@ diff -Naur orig/smali_classes2/com/google/api/client/extensions/jetty/auth/oauth
 +    const-string/jumbo v1, "http://127.0.0.1"
  
      invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
- 
+	 
 diff -Naur orig/smali_classes2/com/google/api/client/googleapis/auth/clientlogin/ClientLogin.smali mod/smali_classes2/com/google/api/client/googleapis/auth/clientlogin/ClientLogin.smali
 --- orig/smali_classes2/com/google/api/client/googleapis/auth/clientlogin/ClientLogin.smali	2017-07-10 10:51:26.264534600 +0200
 +++ mod/smali_classes2/com/google/api/client/googleapis/auth/clientlogin/ClientLogin.smali	2017-07-10 12:46:57.907623200 +0200

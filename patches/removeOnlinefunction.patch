@@ -1437,7 +1437,7 @@ diff -Naur orig/smali_classes2/com/alibaba/sdk/android/dpa/util/HttpdnsMini$Quer
 +    const-string/jumbo v3, "http://127.0.0.1"
  
      invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
- 
+	 
 diff -Naur orig/smali_classes2/com/alibaba/sdk/android/mns/common/MNSConstants.smali mod/smali_classes2/com/alibaba/sdk/android/mns/common/MNSConstants.smali
 --- orig/smali_classes2/com/alibaba/sdk/android/mns/common/MNSConstants.smali	2017-07-10 10:51:19.453313900 +0200
 +++ mod/smali_classes2/com/alibaba/sdk/android/mns/common/MNSConstants.smali	2017-07-10 12:45:17.725341200 +0200

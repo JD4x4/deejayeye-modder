@@ -862,7 +862,7 @@ diff -Naur orig/smali_classes2/cn/sharesdk/sina/weibo/SinaWeibo.smali mod/smali_
 +    const-string/jumbo v4, "http://127.0.0.1/"
  
      invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
- 
+	 
 diff -Naur orig/smali_classes2/cn/sharesdk/tencent/qq/b.smali mod/smali_classes2/cn/sharesdk/tencent/qq/b.smali
 --- orig/smali_classes2/cn/sharesdk/tencent/qq/b.smali	2017-07-10 10:51:18.821686800 +0200
 +++ mod/smali_classes2/cn/sharesdk/tencent/qq/b.smali	2017-07-10 12:46:45.676341600 +0200

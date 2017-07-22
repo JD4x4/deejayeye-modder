@@ -129,6 +129,7 @@ diff -Naur original/smali_classes4/dji/pilot/countrycode/a/b.smali mod/smali_cla
 -
 -    goto :goto_0
  .end method
+ 
 diff -Naur original/smali_classes5/dji/setting/ui/general/FlycSnView.smali mod/smali_classes5/dji/setting/ui/general/FlycSnView.smali
 --- original/smali_classes5/dji/setting/ui/general/FlycSnView.smali	2017-07-06 01:03:48.476669800 +0200
 +++ mod/smali_classes5/dji/setting/ui/general/FlycSnView.smali	2017-07-06 23:38:05.651198600 +0200
