@@ -18,6 +18,16 @@ I am not responsible for any damage done! Use your brain and all will be fine!
 
 Also i will not include any apk to this git! You have to do everything yourself, if you cannot you should not play with stuff like this!
 
+## App version 4.1.4
+
+App version 4.1.4 is still work in progress. I would personally recommend using 4.1.3, anyway if you want to use 4.1.4 you can but it has not all patches yet AND the CC check dialog is gone and will not come back (still the fcc patch code is present and working [Spark RC 300FW seems to cause problems but SparkRC 100FW works!])
+
+## FCC 
+
+If you get a message about different region etc. etc after using the FCC patch: YOU HAVE TO CLICK OK! 
+
+## HowTo:
+
 ### Linux:
 
 1. make sure you have dialog installed: sudo apt-get install dialog
@@ -72,3 +82,5 @@ https://github.com/MAVProxyUser/firm_cache - Extracted contents of dji_system.bi
 https://github.com/MAVProxyUser/DUMLrub - Ruby port of PyDUML, and firmware cherry picking tool. Allows rolling of custom firmware images.
 
 https://github.com/jezzab/DUMLdore - Even windows users need some love, so DUMLDore was created to help archive, and flash dji_system.bin files on windows platforms.
+
+https://github.com/MAVProxyUser/DJI_ftpd_aes_unscramble - DJI has modified the GPL Busybox ftpd on Mavic, Spark, & Inspire 2 to include AES scrambling of downloaded files... this tool will reverse the scrambling
